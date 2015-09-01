@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <stdio.h>
 //#include <GL/glew.h>
-#include <GL/glui.h>
+#include "include/GL/glui.h"
 //#include <GL/glut.h>
 //#include <GL/gl.h>
 #include <stdlib.h>
@@ -2134,7 +2134,6 @@ int main(int argc, char * argv[]){
 
     return 0;
 }
-
 
 
 
