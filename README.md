@@ -69,7 +69,7 @@ F4 Key -> Wireframe to Smooth to Wireframe
 F5 Key -> Solid and Wireframe to Smooth to Solid and Wireframe
 
 
-#User Interface
+###User Interface
 GUI is still to be developed but some of the user input and controls has been implemented
 
 1. Like to Draw any of the 6 objects Number Keys 1 to 6 are defined as
@@ -81,7 +81,7 @@ b. A Gizmo tool (Tool to reposition, rotate and scale in any axis) is observed t
 automatically at the position of the presently drawn object.
 c. Red -> X-axis, Green -> Y-axis and Blue -> Z-axis.
 	
-# Properties of Gizmo and uses
+### Properties of Gizmo and uses
 1. Red -> X-axis, Green -> Y-axis and Blue -> Z-axis.
 2. the Gizmo's functionality can be changed as following key, following Gizmo type.
 a. 'q' -> No tool selected.
@@ -97,12 +97,12 @@ b. X-axis is selected by default.
 a. '=' -> Increasing corresponding variable.
 b. '-' -> Decreasing corresponding variable.
 
-# Lighting
+### Lighting
 The software provide 2 lights:
 a. LIGHT0 is on by default.
 b. LIGHT1 is off but can be On by pressing 'l';
 
-# Camera Transform
+### Camera Transform
 1. DOLLY CAMERA - the camera zoom in or out.
 This can be done by 
 a. '[' -> ZoomIn.
@@ -120,13 +120,13 @@ f. LEFT ARROW KEY -> Negative Z-axis.
 This can be done by holding MIDDLE MOUSE KEY and moving the mouse.
 
 
-#Selected object's properties
+### Selected object's properties
 1. Selected object's properties are shown in Top-Right corner of the screen, which automatically updated.
 2. Selection can be changed in the sequence of the object formation as follow:
 a. 'p' -> Select previous object.
 b. 'n' -> Select next object.
 
-#Undo/Redo and deleting selected object
+### Undo/Redo and deleting selected object
 1. 'z' -> Delete the last formed object and then its previous on further press.
 2. 'r' -> Recreate the object just deleted by 'd'.
 3. 'x' -> Delete the selected object. This change can't be Redo.
@@ -137,7 +137,7 @@ b. 'n' -> Select next object.
 % % FILES EXPLANATION % %
 1. main.cpp -> Its contain main functions, initializers and variables.
 
-# MAIN FUNCTIONS #
+### MAIN FUNCTIONS
 
 a. nameOBJECT() 		-> Return object's name by its type variable.
 b. ResizeWin() 			-> Resize window with proper frustum transformed.
@@ -154,21 +154,21 @@ j. main() 				-> Program initiator.
 2. dat_stuct.h -> This header file contain the data structures for objects, camera and lights.
 
 a. object -> Defined to save all possible variables for a 3d-Object
-# serial_no		- A unique id, different for each object.
-# type			- States the type of object. (1->cube, 2->sphere, 3->cone, 4->torus, 5->teapot, 6->plane)
-# color[]		- Color of object.
-# position[]	- Position coordinates.
-# rotation[]	- Rotated angles.
-# scale[]		- Scale measures.
-# next			- Next object pointer.
-# pre			- Previous object pointer.
+> serial_no		- A unique id, different for each object.
+> type			- States the type of object. (1->cube, 2->sphere, 3->cone, 4->torus, 5->teapot, 6->plane)
+> color[]		- Color of object.
+> position[]	- Position coordinates.
+> rotation[]	- Rotated angles.
+> scale[]		- Scale measures.
+> next			- Next object pointer.
+> pre			- Previous object pointer.
 
 b. camera -> Defined to save all possible variables for a camera
-# center[]		- Focus Point.
-# radius		- Distance of camera from center.
-# sideAngle		- Angle projection made by camera-vector with positive Z-axis in X-Z plane (Anti-Clockwise as seen from Positive Y-axis)
-# upAngle		- Angle made by camera vector with Positive Y-axis.
-# up[]			- Up Vector of camera.
+> center[]		- Focus Point.
+> radius		- Distance of camera from center.
+> sideAngle		- Angle projection made by camera-vector with positive Z-axis in X-Z plane (Anti-Clockwise as seen from Positive Y-axis)
+> upAngle		- Angle made by camera vector with Positive Y-axis.
+> up[]			- Up Vector of camera.
 
 c. light -> Defined to save all possible variables for a Lights.
 
