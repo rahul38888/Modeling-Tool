@@ -16,23 +16,23 @@
 float scale_factor=100;
 float cam_scale=100;
 
-#include "plugin/dat_stuct.h"
-#include "plugin/texture.h"
-#include "plugin/splines.h"
-#include "plugin/object.h"
-#include "plugin/minecraft_mode.h"
-#include "plugin/object_draw.h"
-#include "plugin/create_object.h"
-#include "plugin/default_objects.h"
-#include "plugin/light.h"
-#include "plugin/text_info.h"
-#include "plugin/control_info.h"
-#include "plugin/gravity_physics.h"
-#include "plugin/save_file.h"
-#include "plugin/load_file.h"
-#include "plugin/shaderReader.h"
+#include "dat_stuct.h"
+#include "texture.h"
+#include "splines.h"
+#include "object.h"
+#include "minecraft_mode.h"
+#include "object_draw.h"
+#include "create_object.h"
+#include "default_objects.h"
+#include "light.h"
+#include "text_info.h"
+#include "control_info.h"
+#include "gravity_physics.h"
+#include "save_file.h"
+#include "load_file.h"
+#include "shaderReader.h"
 
-#include "shaders/shaderLoad.h"
+#include "shaderLoad.h"
 
 #define PI 3.14159
 
