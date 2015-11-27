@@ -98,9 +98,9 @@ a. '=' -> Increasing corresponding variable.
 b. '-' -> Decreasing corresponding variable.
 
 ### Lighting
-The software provide 2 lights:
+The software provide 8 lights:
 a. LIGHT0 is on by default.
-b. LIGHT1 is off but can be On by pressing 'l';
+b. LIGHT1, LIGHT2, .... are off but can be On by pressing 'l';
 
 ### Camera Transform
 1. DOLLY CAMERA - the camera zoom in or out.
