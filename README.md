@@ -139,46 +139,46 @@ b. 'n' -> Select next object.
 
 ### MAIN FUNCTIONS
 
-a. nameOBJECT() -> Return object's name by its type variable.
-b. ResizeWin() -> Resize window with proper frustum transformed.
-c. initRendering() -> enable basic modes.
-d. Renderer() -> Main Rendering Function.
-e. update() -> Updates Screen on in fixed intervals.
-f. KeyFunction() -> Capture KeyBoard events and make changes as defined by developer.
+a. nameOBJECT() -> Return object's name by its type variable
+b. ResizeWin() -> Resize window with proper frustum transformed
+c. initRendering() -> enable basic modes
+d. Renderer() -> Main Rendering Function
+e. update() -> Updates Screen on in fixed intervals
+f. KeyFunction() -> Capture KeyBoard events and make changes as defined by developer
 g. specialKeyFunction() -> Capture Special Keys (like Function keys) of KeyBoard and make changes
- as defined by developer.
-h. mouseFunction() -> Capture MouseKey events to initialize various events.
-i. mouseMotion() -> Captures Mouse Position change.
-j. main() -> Program initiator.
+ as defined by developer
+h. mouseFunction() -> Capture MouseKey events to initialize various events
+i. mouseMotion() -> Captures Mouse Position change
+j. main() -> Program initiator
 
-2. dat_stuct.h -> This header file contain the data structures for objects, camera and lights.
+2. dat_stuct.h -> This header file contain the data structures for objects, camera and lights
 
 a. object -> Defined to save all possible variables for a 3d-Object
-serial_no - A unique id, different for each object.
-type - States the type of object. (1->cube, 2->sphere, 3->cone, 4->torus, 5->teapot, 6->plane)
-color[] - Color of object.
-position[] - Position coordinates.
-rotation[] - Rotated angles.
-scale[] - Scale measures.
-next - Next object pointer.
-pre - Previous object pointer.
+ serial_no - A unique id, different for each object
+ type - States the type of object (1->cube, 2->sphere, 3->cone, 4->torus, 5->teapot, 6->plane)
+ color[] - Color of object
+ position[] - Position coordinates
+ rotation[] - Rotated angles
+ scale[] - Scale measures
+ next - Next object pointer
+ pre - Previous object pointer
 
 b. camera -> Defined to save all possible variables for a camera
-center[] - Focus Point.
-radius - Distance of camera from center.
-sideAngle - Angle projection made by camera-vector with positive Z-axis in X-Z plane (Anti-Clockwise as 	seen from Positive Y-axis)
-upAngle - Angle made by camera vector with Positive Y-axis.
-up[] - Up Vector of camera.
+ center[] - Focus Point
+ radius - Distance of camera from center
+ sideAngle - Angle projection made by camera-vector with positive Z-axis in X-Z plane(Anti-Clockwise as seen from Positive Y-axis)
+ upAngle - Angle made by camera vector with Positive Y-axis
+ up[] - Up Vector of camera
 
-c. light -> Defined to save all possible variables for a Lights.
+c. light -> Defined to save all possible variables for a Lights
 
-3. craete_object.h -> This header file create/initialize the objects like 3d-models, camera and lights.
-The all variables are given default values.
+3. create_object.h -> This header file create/initialize the objects like 3d-models, camera and lights
+The all variables are given default values
 
-4. object_draw.h -> This header file contain functions which help in realizing objects in the view port, i.e draw them.
+4. object_draw.h -> This header file contain functions which help in realizing objects in the view port, i.e draw them
 
-5. default_objects.h -> This header file's function create default objects like Base-Grid and different types of Gizmos.
+5. default_objects.h -> This header file's function create default objects like Base-Grid and different types of Gizmos
 
-6. light.h -> This file help in enabling lights.
+6. light.h -> This file help in enabling lights
 
-7.text_info.h -> This file has function with help in creating text in the Top-Right side of the screen.
+7.text_info.h -> This file has function with help in creating text in the Top-Right side of the screen
