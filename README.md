@@ -1,7 +1,6 @@
 # Modeling-Tool
-A basic modeling tool with basic user interface.
 
-##This is 3D Modelling tool with basic Models Like Cube, Sphere, Cone, Torus, Teapot and Plane
+###This is 3D Modelling tool with basic Models Like Cube, Sphere, Cone, Torus, Teapot and Plane
 
 						% % ALL CONTROLES AND USERINTERFACE % %
 			1# DRAW OBJECTS
