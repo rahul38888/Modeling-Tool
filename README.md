@@ -154,21 +154,21 @@ j. main() 				-> Program initiator.
 2. dat_stuct.h -> This header file contain the data structures for objects, camera and lights.
 
 a. object -> Defined to save all possible variables for a 3d-Object
-> serial_no		- A unique id, different for each object.
-> type			- States the type of object. (1->cube, 2->sphere, 3->cone, 4->torus, 5->teapot, 6->plane)
-> color[]		- Color of object.
-> position[]	- Position coordinates.
-> rotation[]	- Rotated angles.
-> scale[]		- Scale measures.
-> next			- Next object pointer.
-> pre			- Previous object pointer.
+	serial_no		- A unique id, different for each object.
+	type			- States the type of object. (1->cube, 2->sphere, 3->cone, 4->torus, 5->teapot, 6->plane)
+	color[]		- Color of object.
+	position[]	- Position coordinates.
+	rotation[]	- Rotated angles.
+	scale[]		- Scale measures.
+	next			- Next object pointer.
+	pre			- Previous object pointer.
 
 b. camera -> Defined to save all possible variables for a camera
-> center[]		- Focus Point.
-> radius		- Distance of camera from center.
-> sideAngle		- Angle projection made by camera-vector with positive Z-axis in X-Z plane (Anti-Clockwise as seen from Positive Y-axis)
-> upAngle		- Angle made by camera vector with Positive Y-axis.
-> up[]			- Up Vector of camera.
+	center[]		- Focus Point.
+	radius		- Distance of camera from center.
+	sideAngle		- Angle projection made by camera-vector with positive Z-axis in X-Z plane (Anti-Clockwise as 	seen from Positive Y-axis)
+	upAngle		- Angle made by camera vector with Positive Y-axis.
+	up[]			- Up Vector of camera.
 
 c. light -> Defined to save all possible variables for a Lights.
 
