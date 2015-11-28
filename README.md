@@ -79,6 +79,13 @@ AFTER THAT
 
 Now a new window will appear which will containt various inputs. You can change how object should look like by changing them.
 
+#####12 NEW/OPEN/SAVE/EXIT
+These options can be access by Right Click > File
+a. New -> Set the Modeling Tool to set to its initial state. All the progress will be lost.
+b. Open -> The Modeling tool can open specific kind of files to re-create the saved sceene. ".3d" extention files.
+c. Save -> The Modeling tool allows user to save the created seene and access it in the future in ".3d" extention files.
+d. Exit -> Make Modeling Tool terminate the present session. All the progress will be lost.
+
 #####12 HELP and OBJECT DISPLAY MODES
 ONSCREEN HELP : F1
 
