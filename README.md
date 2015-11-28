@@ -2,141 +2,126 @@
 
 ###This is 3D Modelling tool with basic Models Like Cube, Sphere, Cone, Torus, Teapot and Plane
 
-Real codes and related files can be access through folowing link
+Codes with pre-compiled executable, all libraries and related files can be access through folowing link
 https://drive.google.com/folderview?id=0B3rW_i_M0kWzb0FqVG9DQlhFc0E&usp=sharing
 
 ####ALL CONTROLES AND USERINTERFACE
 #####1 DRAW OBJECTS
-Right click then select Objects option -> There are 7 types of object
+Click the button of object you wish to create, in right side. You can also right click, then select Objects option -> There are 7 types of object. 
+If some object is selected, user can find the Object Properties Dropdown on Right side of screen. This will help change the variables related to the selcted object.
 
 #####2 Lights
-Right click then select Lights option -> There are 7 types of lights
+Right click then select Lights option -> There are 7 types of lights. 
+On clicking any one of the lights, a input window will apear which can be used to change attributes related to the light. 
+Light can be switched off by selcting the light in same way. 
 
-#####3 Nurbs
-Right click then select Nurbs opion
+#####3 Bezeir Curve
+Right click then select Bezeir Curve. 
 
-#####4 Bezier
-Right click then select Bezier option
+#####4 Bezier Surface
+Right click then select Bezier Surface. 
 
 #####5 Particle System
-Right click then select Particle System option
+Right click then select Particle System option (a simple simulation of water using planes facing the camera). 
 
 #####6 RE-POSITION / ROTATE / SCALE MODES
-'q' -> No Transform Mode
-'w' -> Re-Position Mode
-'e' -> Rotation Mode
-'r' -> Scaling Mode
+'q' -> Idle Mode. 
+'w' -> Re-Position Mode. 
+'e' -> Rotation Mode. 
+'r' -> Scaling Mode. 
 
 AFTER THAT
 
-#####6.1 AXIS SELECTION
-'d' -> X-axis to Y-axis to Z-axis to X-axis.
-	
-#####6.1.1 Changing corresponding value of the transformed
-'=' -> Increment the value
-'-' -> Decreasing the value
-
-#####7 ON / OFF THE SECOND LIGHT
-'l' -> ON to OFF to ON
+#####7 AXIS SELECTION
+>Use three Input boxes in botton to change Position, rotation and Scale's corresponding X, Y or Z values. 
 
 #####8 CAMERA TRANSFORM
-#####8.1 DOLLY Camera
-'[' -> ZoomIn
-']' -> ZoomOut
+>######8.1 DOLLY Camera
+>>'[' -> ZoomIn. 
+>>']' -> ZoomOut. 
 
-#####8.2 TRUCK CAMEAR
-RIGHT ARROW KEY -> Positive X-axis.
-LEFT ARROW KEY -> Negative X-axis.
-'.' -> Positive Y-axis.
-',' -> Negative Y-axis.
-UP ARROW KEY -> Positive Z-axis.
-LEFT ARROW KEY -> Negative Z-axis.
+>######8.2 TRUCK CAMEAR
+>>RIGHT ARROW KEY -> Positive X-axis. 
+>>LEFT ARROW KEY -> Negative X-axis. 
+>>'.' -> Positive Y-axis. 
+>>',' -> Negative Y-axis. 
+>>UP ARROW KEY -> Positive Z-axis. 
+>>LEFT ARROW KEY -> Negative Z-axis. 
 
-#####8.3 ORBIT CAMERA
-Hold MIDDLE MOUSE KEY and move the mouse.
+>######8.3 ORBIT CAMERA
+>>Hold MIDDLE MOUSE KEY and move the mouse. 
 
 #####9 OBJECT SELECTION
-'p' -> Select previous object.
-'n' -> Select next object.
+'p' -> Select previous object. 
+'n' -> Select next object. 
 
 #####10 UNDO / REDO AND DELETE SELECTED OBJECT
-'z' -> Delete the last available formed object.
-'r' -> Recreate the latest object deleted by 'd'.
-'x' -> Delete the selected object.*
+'z' -> Delete the last available formed object. 
+'y' -> Recreate the latest object deleted by 'd'. 
 
-*This change can't be Redo.
+#####11 MATERIALS PROPERTIES
+'m' -> If you have and object selected and want to change its material properties press. 
+Now a new window will appear which will containt various inputs. You can change how object should look like by changing them.
 
-#####11 WIREFRAME / SMOOTH MODES
-F4 Key -> Wireframe to Smooth to Wireframe
-#####12 SOLID AND WIREFRAME BOTH TOGETHER
-F5 Key -> Solid and Wireframe to Smooth to Solid and Wireframe
+#####12 HELP and OBJECT DISPLAY MODES
+ONSCREEN HELP : F1
+SMOOTH vs EDGY MODE : F2 -> Smooth to Edgy to Smooth
+SOLID AND WIREFRAME : F3 Key -> Solid and Wireframe to Smooth to Solid and Wireframe
+WIREFRAME : F4 Key -> Wireframe to Normal to Wireframe
+MINECRAFT MODE : F5 Key -> Minecraft(Blocks) to Normal to Minecraft
 
-
-###User Interface
-GUI is still to be developed but some of the user input and controls has been implemented
-
-1. Like to Draw any of the 6 objects Number Keys 1 to 6 are defined as
-1->cube, 2->sphere, 3->cone, 4->torus, 5->teapot, 6->plane
-
-2. Multiple objects can be drawn in any sequence and following properties are observed
-a. Any new objects are formed at origin, with zero rotation and scaled 1 in all direction.
-b. A Gizmo tool (Tool to reposition, rotate and scale in any axis) is observed to be 
-automatically at the position of the presently drawn object.
-c. Red -> X-axis, Green -> Y-axis and Blue -> Z-axis.
+1. Multiple objects can be drawn in any sequence and following properties are observed
+>a. Any new objects are formed at origin, with zero rotation and scaled 1 in all direction.
+>b. A Gizmo tool (Tool to reposition, rotate and scale in any axis) is observed to be automatically at the position of the presently drawn object.
+>c. Red -> X-axis, Green -> Y-axis and Blue -> Z-axis.
 	
 ### Properties of Gizmo and uses
 1. Red -> X-axis, Green -> Y-axis and Blue -> Z-axis.
 2. the Gizmo's functionality can be changed as following key, following Gizmo type.
-a. 'q' -> No tool selected.
-b. 'w' -> Re-positioning tool.
-c. 'e' -> Rotation tool.
-d. 'r' -> Scaling tool.
+>a. 'q' -> No tool selected.
+>b. 'w' -> Re-positioning tool.
+>c. 'e' -> Rotation tool.
+>d. 'r' -> Scaling tool.
 3. Now while switching to positioning, rotation and scaling Gizmo one might observe one of the 
 axis being yellow color. This means that the axis is being selected to modify the object in that axis.
 Axis can be switched by pressing 'd' in following sequence:
-a. X-axis to Y-axis to Z-axis
-b. X-axis is selected by default.
-4 The selected transformed in selected axis cam be implemented as following:
-a. '=' -> Increasing corresponding variable.
-b. '-' -> Decreasing corresponding variable.
+>a. X-axis to Y-axis to Z-axis
+>b. X-axis is selected by default.
 
 ### Lighting
 The software provide 8 lights:
 a. LIGHT0 is on by default.
-b. LIGHT1, LIGHT2, .... are off but can be On by pressing 'l';
+b. LIGHT1, LIGHT2, .... are off but can be On by selcting from right click menu. This makes LIGHT0 to switch Off.
 
 ### Camera Transform
 1. DOLLY CAMERA - the camera zoom in or out.
 This can be done by 
-a. '[' -> ZoomIn.
-b. ']' -> Zoom Out.
+>a. '[' -> ZoomIn.
+>b. ']' -> Zoom Out.
 
 2. TRUCK CAMEAR - the Focusing point is moved.
-a. RIGHT ARROW KEY -> Positive X-axis.
-b. LEFT ARROW KEY -> Negative X-axis.
-c. '.' -> Positive Y-axis.
-d. ',' -> Negative Y-axis.
-e. UP ARROW KEY -> Positive Z-axis.
-f. LEFT ARROW KEY -> Negative Z-axis.
+>a. RIGHT ARROW KEY -> Positive X-axis.
+>b. LEFT ARROW KEY -> Negative X-axis.
+>c. '.' -> Positive Y-axis.
+>d. ',' -> Negative Y-axis.
+>e. UP ARROW KEY -> Positive Z-axis.
+>f. LEFT ARROW KEY -> Negative Z-axis.
 
 3. ORBIT CAMERA - the camera rotate about it Focusing point on a sphere of radius.
-This can be done by holding MIDDLE MOUSE KEY and moving the mouse.
+>This can be done by holding MIDDLE MOUSE KEY and moving the mouse.
 
 
 ### Selected object's properties
 1. Selected object's properties are shown in Top-Right corner of the screen, which automatically updated.
 2. Selection can be changed in the sequence of the object formation as follow:
-a. 'p' -> Select previous object.
-b. 'n' -> Select next object.
+>a. 'p' -> Select previous object.
+>b. 'n' -> Select next object.
 
 ### Undo/Redo and deleting selected object
 1. 'z' -> Delete the last formed object and then its previous on further press.
-2. 'r' -> Recreate the object just deleted by 'd'.
-3. 'x' -> Delete the selected object. This change can't be Redo.
-	
+2. 'y' -> Recreate the object just deleted by 'd'.
 
 
-	
 ####FILES EXPLANATION
 1. main.cpp -> Its contain main functions, initializers and variables.
 
