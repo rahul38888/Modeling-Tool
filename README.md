@@ -3,16 +3,20 @@
 ###This is 3D Modelling tool with basic Models Like Cube, Sphere, Cone, Torus, Teapot and Plane
 
 Codes with pre-compiled executable, all libraries and related files can be access through folowing link
+
 https://drive.google.com/folderview?id=0B3rW_i_M0kWzb0FqVG9DQlhFc0E&usp=sharing
 
 ####ALL CONTROLES AND USERINTERFACE
 #####1 DRAW OBJECTS
 Click the button of object you wish to create, in right side. You can also right click, then select Objects option -> There are 7 types of object. 
+
 If some object is selected, user can find the Object Properties Dropdown on Right side of screen. This will help change the variables related to the selcted object.
 
 #####2 Lights
 Right click then select Lights option -> There are 7 types of lights. 
+
 On clicking any one of the lights, a input window will apear which can be used to change attributes related to the light. 
+
 Light can be switched off by selcting the light in same way. 
 
 #####3 Bezeir Curve
@@ -26,8 +30,11 @@ Right click then select Particle System option (a simple simulation of water usi
 
 #####6 RE-POSITION / ROTATE / SCALE MODES
 'q' -> Idle Mode. 
+
 'w' -> Re-Position Mode. 
+
 'e' -> Rotation Mode. 
+
 'r' -> Scaling Mode. 
 
 AFTER THAT
@@ -38,14 +45,20 @@ AFTER THAT
 #####8 CAMERA TRANSFORM
 >######8.1 DOLLY Camera
 >>'[' -> ZoomIn. 
+
 >>']' -> ZoomOut. 
 
 >######8.2 TRUCK CAMEAR
 >>RIGHT ARROW KEY -> Positive X-axis. 
+
 >>LEFT ARROW KEY -> Negative X-axis. 
+
 >>'.' -> Positive Y-axis. 
+
 >>',' -> Negative Y-axis. 
+
 >>UP ARROW KEY -> Positive Z-axis. 
+
 >>LEFT ARROW KEY -> Negative Z-axis. 
 
 >######8.3 ORBIT CAMERA
@@ -53,21 +66,28 @@ AFTER THAT
 
 #####9 OBJECT SELECTION
 'p' -> Select previous object. 
+
 'n' -> Select next object. 
 
 #####10 UNDO / REDO AND DELETE SELECTED OBJECT
 'z' -> Delete the last available formed object. 
+
 'y' -> Recreate the latest object deleted by 'd'. 
 
 #####11 MATERIALS PROPERTIES
 'm' -> If you have and object selected and want to change its material properties press. 
+
 Now a new window will appear which will containt various inputs. You can change how object should look like by changing them.
 
 #####12 HELP and OBJECT DISPLAY MODES
 ONSCREEN HELP : F1
+
 SMOOTH vs EDGY MODE : F2 -> Smooth to Edgy to Smooth
+
 SOLID AND WIREFRAME : F3 Key -> Solid and Wireframe to Smooth to Solid and Wireframe
+
 WIREFRAME : F4 Key -> Wireframe to Normal to Wireframe
+
 MINECRAFT MODE : F5 Key -> Minecraft(Blocks) to Normal to Minecraft
 
 1. Multiple objects can be drawn in any sequence and following properties are observed
@@ -84,6 +104,7 @@ MINECRAFT MODE : F5 Key -> Minecraft(Blocks) to Normal to Minecraft
 >d. 'r' -> Scaling tool.
 3. Now while switching to positioning, rotation and scaling Gizmo one might observe one of the 
 axis being yellow color. This means that the axis is being selected to modify the object in that axis.
+
 Axis can be switched by pressing 'd' in following sequence:
 >a. X-axis to Y-axis to Z-axis
 >b. X-axis is selected by default.
