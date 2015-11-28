@@ -12,6 +12,9 @@ Click the button of object you wish to create, in right side. You can also right
 
 If some object is selected, user can find the Object Properties Dropdown on Right side of screen. This will help change the variables related to the selcted object.
 
+Multiple objects can be drawn in any sequence and following properties are observed
+>a. Any new objects are formed at origin, with zero rotation and scaled 1 in all direction.
+
 #####2 Lights
 Right click then select Lights option -> There are 7 types of lights. 
 
@@ -96,15 +99,11 @@ SOLID AND WIREFRAME : F3 Key -> Solid and Wireframe to Smooth to Solid and Wiref
 WIREFRAME : F4 Key -> Wireframe to Normal to Wireframe
 
 MINECRAFT MODE : F5 Key -> Minecraft(Blocks) to Normal to Minecraft
-
-1. Multiple objects can be drawn in any sequence and following properties are observed
->a. Any new objects are formed at origin, with zero rotation and scaled 1 in all direction.
->b. A Gizmo tool (Tool to reposition, rotate and scale in any axis) is observed to be automatically at the position of the presently drawn object.
->c. Red -> X-axis, Green -> Y-axis and Blue -> Z-axis.
 	
 ### Properties of Gizmo and uses
 1. Red -> X-axis, Green -> Y-axis and Blue -> Z-axis.
-2. the Gizmo's functionality can be changed as following key, following Gizmo type.
+2. A Gizmo tool (Tool to reposition, rotate and scale in any axis) is observed to be automatically at the position of the presently drawn object.
+3. the Gizmo's functionality can be changed as following key, following Gizmo type.
 >a. 'q' -> No tool selected.
 >b. 'w' -> Re-positioning tool.
 >c. 'e' -> Rotation tool.
